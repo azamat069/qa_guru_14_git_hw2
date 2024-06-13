@@ -8,6 +8,6 @@ def browser_management():
 
 
 def test_search_selene():
-    browser.open('https://google.com')
+    browser.open('https://ya.ru')
     browser.element('[name="q"]').should(be.blank).type('selene').press_enter()
 
