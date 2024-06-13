@@ -9,5 +9,4 @@ def browser_management():
 
 def test_search_selene():
     browser.open('https://google.com')
-    browser.element('[name="q"]').should(be.blank).type('first conflict pull request').press_enter()
-
+    browser.element('[name="q"]').should(be.blank).type('selene').press_enter()
